@@ -1,9 +1,10 @@
-import { SelectSongs } from '../actions'
+import React from "react";
+import SongList from "./SongList";
 
 function App() {
   return (
-    <div className="App">
-      Hello world!
+    <div>
+      <SongList />
     </div>
   );
 }
